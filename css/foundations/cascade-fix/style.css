@@ -10,7 +10,7 @@
   color: hsl(0, 100%, 50%);
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
