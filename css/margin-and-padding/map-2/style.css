@@ -15,10 +15,12 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin: 16px auto;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 50px;
 }
 
 button {
