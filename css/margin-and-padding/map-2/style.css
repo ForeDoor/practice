@@ -20,10 +20,13 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  padding: 50px;
+  padding: 10px;
 }
+
+/* Moved the button a little. */
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: flex;
 }
