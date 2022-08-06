@@ -19,14 +19,15 @@ body {
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: #0411c5;
   padding: 10px;
-}
+  text-align: center;
+  }
 
 /* Moved the button a little. */
 
 button {
   background: white;
-  border: 1px solid #eee;
+  border: 1px solid rgb(223, 6, 6);
   display: flex;
 }
