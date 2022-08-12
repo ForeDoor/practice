@@ -13,7 +13,7 @@
 }
 
 .menu {
-  border: 1px solid #fff;  /* For debugging */
+  /* border: 1px solid #fff;  /* For debugging */
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,18 @@
 .photo-grid {
   width: 900px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
 }
 
 .photo-grid-item {
